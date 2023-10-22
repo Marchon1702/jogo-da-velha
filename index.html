@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/velha.ico" type="image/x-icon">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <main>
+        <section class="board" id="res">
+            
+        </section>
+        <section class="board" id="tabuleiro" onclick="fimdejogo()">
+            <section class="a">
+                <div id="a1" onclick="vezdoplayer(this)"></div>
+                <div id="a2" onclick="vezdoplayer(this)"></div>
+                <div id="a3" onclick="vezdoplayer(this)"></div>
+            </section>
+            <section class="b">
+                <div id="b1" onclick="vezdoplayer(this)"></div>
+                <div id="b2" onclick="vezdoplayer(this)"></div>
+                <div id="b3" onclick="vezdoplayer(this)"></div>
+            </section>
+            <section class="c">
+                <div id="c1" onclick="vezdoplayer(this)"></div>
+                <div id="c2" onclick="vezdoplayer(this)"></div>
+                <div id="c3" onclick="vezdoplayer(this)"></div>
+            </section>
+        </section>
+        <section>
+            <input type="button" name="reco" id="reco" value="Reiniciar" onclick="recomecar()">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
