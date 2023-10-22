@@ -146,19 +146,19 @@ if(a1.innerHTML == 'O'
 
 function recomecar() {
 
-    a1.innerHTML = '';
-    a2.innerHTML = '';
-    a3.innerHTML = '';
-    b1.innerHTML = '';
-    b2.innerHTML = '';
-    b3.innerHTML = '';
-    c1.innerHTML = '';
-    c2.innerHTML = '';
-    c3.innerHTML = '';
+    a1.innerHTML = ''
+    a2.innerHTML = ''
+    a3.innerHTML = ''
+    b1.innerHTML = ''
+    b2.innerHTML = ''
+    b3.innerHTML = ''
+    c1.innerHTML = ''
+    c2.innerHTML = ''
+    c3.innerHTML = ''
 
     vez = 'O';
-    resul.style.display = 'none';
-    resul.innerHTML = '';
+    resul.style.display = 'none'
+    resul.innerHTML = ''
     tabuleiro.style.display = 'block'
 }
 
