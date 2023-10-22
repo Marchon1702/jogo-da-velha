@@ -70,14 +70,14 @@ div {
 
 @media screen and (max-width: 600px){
 
+    body {
+        padding: 50px;
+    }
+
     .board, #res, div {
         width: 300px;
         height: 100px;
         
-    }
-
-    .board {
-        margin: 50px;
     }
 
     #res {
