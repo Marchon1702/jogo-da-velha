@@ -128,13 +128,13 @@ if(a1.innerHTML == 'O'
                                                                                                 tabuleiro.style.display = 'none'
                                                                                                 resul.style.display = 'grid'
                                                                                                 resul.innerHTML = 'Jogador O venceu! 🥇'
-                                                                                            } else if (b1.innerHTML ==      'X' &&
+                                                                                            } else if (b1.innerHTML ==      'O' &&
                                                                                                     b2.innerHTML == 'O' &&
                                                                                                     b3.innerHTML == 'O') {
                                                                                                      tabuleiro.style.display = 'none'
                                                                                                      resul.style.display = 'grid'
                                                                                                      resul.innerHTML = 'Jogador O venceu! 🥇'
-                                                                                                } else if (c1.innerHTML == 'X' &&
+                                                                                                } else if (c1.innerHTML == 'O' &&
                                                                                                           c2.innerHTML == 'O' &&
                                                                                                           c3.innerHTML == 'O') {
                                                                                                             tabuleiro.style.display = 'none'
