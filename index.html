@@ -6,14 +6,29 @@
     <link rel="shortcut icon" href="imagens/velha.ico" type="image/x-icon">
     <title>Jogo da velha</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mqueries.css">
 </head>
 <body>
     <header>
-        <h1>Jogo da Velha</h1>
+        <section id="player1">
+            <h1 id="joga1"></h1>
+            <div id="placar1">0</div>
+        </section>
+            <h1 class="divisao">VS</h1>
+            <section id="player2">
+            <div id="placar2">0</div>
+            <h1 id="joga2"></h1>
+        </section>
     </header>
     <main>
         <section class="board" id="res">
-            
+            <label for="p1">P1</label>
+            <input type="text" name="p1" id="p1" placeholder="Insira nome do P1">
+            <br>
+            <label for="p2">P2</label>
+            <input type="text" name="p2" id="p2" placeholder="Insira o nome do P2">
+            <br>
+            <input type="button" name="enviar-nomes" id="enviar-nomes" value="Confirmar" onclick="enviNome()"> 
         </section>
         <section class="board" id="tabuleiro" onclick="fimdejogo()">
             <section class="a">
@@ -32,10 +47,10 @@
                 <div id="c3" onclick="vezdoplayer(this)"></div>
             </section>
         </section>
-        <section>
+        <section id="restart">
             <input type="button" name="reco" id="reco" value="Reiniciar" onclick="recomecar()">
         </section>
-    </main>
+     </main>
     <script src="script.js"></script>
 </body>
 </html>
